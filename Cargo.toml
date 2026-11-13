@@ -1,0 +1,7 @@
+[package]
+name = "skia-binaries-awooga"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+skia-safe = { git = "https://github.com/rust-skia/rust-skia", rev = "982dc49d2377895283fe333b5b08e3ee7e57dec5", default-features = false, features = ["binary-cache", "wgpu-30"] }
